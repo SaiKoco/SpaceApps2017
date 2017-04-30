@@ -15,6 +15,7 @@ import java.util.List;
 
 @Service("provinciasService")
 public class ProvinciasServiceImpl implements ProvinciasService {
+
     private static final int CTN = 10;
 
     private static final Log LOG = LogFactory.getLog(ProvinciasServiceImpl.class);
