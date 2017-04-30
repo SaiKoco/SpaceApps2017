@@ -1,0 +1,29 @@
+
+  ____     ____       _        ____ U _____ u         _       ____     ____     ____
+ / __"| uU|  _"\ uU  /"\  u U /"___|\| ___"|/     U  /"\  u U|  _"\ uU|  _"\ u / __"| u
+<\___ \/ \| |_) |/ \/ _ \/  \| | u   |  _|" U  u   \/ _ \/  \| |_) |/\| |_) |/<\___ \/
+ u___) |  |  __/   / ___ \   | |/__  | |___ /___\  / ___ \   |  __/   |  __/   u___) |
+ |____/>> |_|     /_/   \_\   \____| |_____|__"__|/_/   \_\  |_|      |_|      |____/>>
+  )(  (__)||>>_    \\    >>  _// \\  <<   >>       \\    >>  ||>>_    ||>>_     )(  (__)
+ (__)    (__)__)  (__)  (__)(__)(__)(__) (__)     (__)  (__)(__)__)  (__)__)   (__)
+
+
+@backend developer: Necros
+@backend developer: Acemon
+@backend developer: Saikoco
+@backend developer: M.A. Baracus
+<table>
+        <thead>
+            <tr>
+                <th>veg1</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <form action="#" th:action="@{/mudanza/submit}" th:method="post">
+        <p>Veg <input type="text" th:field="*{veg}" /></p>
+        <p><input type="submit" value="Submit"/></p>
+    </form>
+

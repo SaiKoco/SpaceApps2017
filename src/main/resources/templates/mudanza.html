@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Mudanza</title>
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>veg1</th>
+        </tr>
+    </thead>
+    <tbody th:each="veg : ${vegs}">
+        <tr>
+            <th th:text="${veg.veg1}"></th>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
